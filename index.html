@@ -7,8 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet" />
+    <style>
+      @media (max-width: 768px) {
+        .review {
+          display: none;
+        }
+      }
+    </style>
   </head>
-  <body class="font-[DM Sans] text-[#7B95B7] lg:px-[112px] px-[20px] mb-[50px]">
+  <body class="font-[DM Sans] text-[#486284] lg:px-[112px] px-[20px] mb-[50px]">
     <nav class="flex justify-between mt-[30px] mb-[18px]">
       <div class="flex">
         <img src="./images/logo.png" alt="Wellup" class="size-10 my-auto" />
@@ -26,114 +33,104 @@
 
     <hr />
 
-    <section class="my-[120px]">
-      <div class="flex">
-        <img src="./images/img1.jpg" alt="img1" class="size-2/5 rounded-lg" />
-        <div class="ml-[40px]">
-          <h4 class="font-semibold text-[21px]">Wellness Lifestyle & Unburdening Program</h4>
-          <h1 class="font-bold text-[48px]">Best app to self improve</h1>
-          <p class="text-[20px] mb-[24px]">
-            Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla. Senectus interdum amet lectus vel bibendum adipiscing turpis.
+    <section class="lg:mt-[120px]">
+      <div class="lg:flex mt-[32px]">
+        <img src="./images/img1.png" alt="img1" class="lg:size-5/12 mx-auto rounded-lg" />
+        <div class="lg:ml-[40px] mx-auto">
+          <h4 class="lg:font-semibold lg:text-[21px] text-[14px] mt-[24px]">Wellness Lifestyle & Unburdening Program</h4>
+          <h1 class="font-bold lg:text-[48px] text-[24px]">Best app to self improve</h1>
+          <p class="lg:text-[18px] text-[14px] mb-[24px] text-[#8CA2C0]">
+            Aplikasi layanan publik untuk membantu masyarakat mencapai gaya hidup yang sehat dengan mengatasi dan mengubah kebiasaan buruk.
+            <span class="review"> Dirancang untuk menjadi mitra setia dalam perjalanan kesehatan, WELLUP menyediakan beragam fitur dan sumber daya yang mendukung pengguna dalam meraih keseimbangan hidup yang optimal. </span>
           </p>
-          <button class="bg-[#486284] px-[32px] py-[12px] rounded-full text-[16px] text-[#fff]">Sign In</button>
-          <button class="px-[32px] py-[12px] rounded-full text-[16px] border-2 border-[#486284]">Sign Up</button>
         </div>
       </div>
     </section>
 
-    <section class="my-[120px]">
+    <section class="lg:my-[120px] my-[32px] mx-auto">
       <div>
-        <h1 class="font-bold text-[40px] mb-[24px]">Review</h1>
-        <div class="grid grid-cols-3">
-          <div class="border border-[#9CB0C9] rounded-lg mr-[24px] p-[32px] text-center">
-            <h1 class="font-bold text-[60px]">+10K</h1>
-            <p class="text-[20px]">User Review counted</p>
+        <h1 class="font-bold lg:text-[40px] text-[20px] mb-[24px]">Review</h1>
+        <div class="lg:grid grid-cols-3 mx-[24px]]">
+          <div class="border border-[#9CB0C9] rounded-lg mr-[24px] p-[14px] lg:p-[32px] text-center">
+            <img src="./images/star5.png" alt="" class="lg:size-auto size-5/12" />
+            <p class="lg:text-[17px] text-[12px] text-[#8CA2C0] lg:mt-[16px] mt-[6px]">“WELLUP telah menjadi mitra setia saya dalam meraih gaya hidup yang lebih sehat! ....”</p>
           </div>
-          <div class="border border-[#9CB0C9] rounded-lg mr-[24px] p-[32px] text-center">
-            <h1 class="font-bold text-center text-[60px]">17M</h1>
-            <p class="text-[20px]">Active User counted</p>
+          <div class="border border-[#9CB0C9] rounded-lg mr-[24px] p-[32px] text-center review">
+            <img src="./images/star4.png" alt="" srcset="" />
+            <p class="text-[17px] text-[#8CA2C0] mt-[16px]">“WELLUP adalah teman baik dalam upaya meningkatkan kesehatan dan gaya hidup ....”</p>
           </div>
-          <div class="border border-[#9CB0C9] rounded-lg p-[32px] text-center">
-            <h1 class="font-bold text-center text-[60px]">+95%</h1>
-            <p class="text-[20px]">User satisfaction</p>
+          <div class="border border-[#9CB0C9] rounded-lg p-[32px] text-center review">
+            <img src="./images/star5.png" alt="" srcset="" />
+            <p class="text-[17px] text-[#8CA2C0] mt-[16px]">"Saya sangat merekomendasikan WELLUP kepada siapa pun yang ingin meningkatkan kesehatan mereka ....”</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="my-[120px]">
+    <section class="lg:my-[120px] my-[32px] mx-auto">
       <div>
         <h1 class="font-bold text-center text-[40px] mb-[16px]">Services</h1>
-        <p class="text-[20px] text-center mx-[150px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+        <p class="lg:text-[20px] text-[14px] text-[#8CA2C0] text-center mx-auto lg:mx-[150px]">WELLUP menyediakan beragam fitur dan sumber daya yang mendukung pengguna dalam meraih keseimbangan hidup yang optimal.</p>
       </div>
-      <hr class="my-[48px]" />
-      <div class="grid grid-cols-2 mx-[10px] mb-[48px]">
-        <div class="mr-[64px]">
-          <h2 class="font-medium text-[28px] mb-[16px]">Stop Adictions</h2>
-          <p class="text-[20px] mb-[24px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+      <hr class="lg:my-[48px] my-[24px]" />
+      <div class="lg:grid grid-cols-2 lg:mx-[10px] mb-[48px]">
+        <div class="lg:mr-[64px] mx-[24px]">
+          <h2 class="font-medium lg:text-[28px] text-[16px] mb-[16px]">Stop Adictions</h2>
           <img src="./images/img2.jpg" alt="" class="rounded-lg" />
+          <p class="lg:text-[20px] text-[12px] my-[24px]">
+            Pengguna dapat berkonsultasi mengenai bagaimana untuk berhenti terhadap suatu adiksi yang buruk, contohnya berhenti merokok, berhenti self blaming dan kebiasaan lain yang buruk bagi kesehatan fisik maupun mental pengguna.
+          </p>
         </div>
-        <div>
-          <h2 class="font-medium text-[28px] mb-[16px]">Start Good Habbits</h2>
-          <p class="text-[20px] mb-[24px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+        <div class="review">
+          <h2 class="font-medium text-[28px] mb-[16px]">Start Good Habits</h2>
           <img src="./images/img3.jpg" alt="image3" class="rounded-lg" />
-        </div>
-      </div>
-      <div class="grid grid-cols-2 mx-[10px]">
-        <div class="mr-[64px]">
-          <h2 class="font-medium text-[28px] mb-[16px]">Stop Adictions</h2>
-          <p class="text-[20px] mb-[24px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
-          <img src="./images/img2.jpg" alt="" class="rounded-lg" />
-        </div>
-        <div>
-          <h2 class="font-medium text-[28px] mb-[16px]">Start Good Habbits</h2>
-          <p class="text-[20px] mb-[24px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
-          <img src="./images/img3.jpg" alt="image3" class="rounded-lg" />
+          <p class="text-[20px] mb-[24px]">
+            Pengguna dapat mencari dan menumbuhkan kebiasaan baru untuk self improvement agar dapat terhindar untuk melakukan kebiasaan buruk. Contohnya terdapat fitur menabung dan belajar menerima diri sendiri.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="my-[120px]">
+    <section class="lg:my-[120px] my-[32px] mx-auto">
       <div>
         <div>
-          <h1 class="font-bold text-center text-[40px] mb-[16px]">Community</h1>
-          <p class="text-[20px] text-center mx-[150px]">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+          <h1 class="font-bold text-center lg:text-[40px] text-[24px] mb-[16px]">Community</h1>
+          <p class="lg:text-[20px] text-[12px] text-center lg:mx-[150px]">Pengguna dapat berbagi informasi dan pengalaman di komunitas dengan topik yang relevan</p>
         </div>
 
-        <hr class="my-[48px]" />
+        <hr class="lg:my-[48px] my-[32px] mx-auto" />
 
-        <div class="grid grid-cols-4">
-          <div class="border border-[#9CB0C9] rounded-lg mx-[12px] p-[32px]">
-            <img src="./images/img4.jpg" alt="image3" class="mb-[24px] rounded-lg" />
-            <h1 class="font-bold text-[20px] mb-[10px]">News 1</h1>
-            <p class="text-[16px] text-left">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+        <div class="grid lg:grid-cols-4 grid-cols-2">
+          <div class="rounded-lg mx-[12px]">
+            <img src="./images/img4.png" alt="image3" class="mb-[24px]" />
+            <h1 class="font-bold lg:text-[20px] text-[16px] mb-[10px]">Express yourself</h1>
+            <p class="text-[16px] text-left">Memberikan pengguna platform untuk secara kreatif dan emosional mengungkapkan diri mereka sehubungan dengan perjalanan kesehatan mereka.</p>
           </div>
-          <div class="border border-[#9CB0C9] rounded-lg mx-[12px] p-[32px]">
-            <img src="./images/img4.jpg" alt="image3" class="mb-[24px] rounded-lg" />
-            <h1 class="font-bold text-[20px] mb-[10px]">News 2</h1>
-            <p class="text-[16px] text-left">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+          <div class="rounded-lg mx-[12px]">
+            <img src="./images/img5.png" alt="image3" class="mb-[24px] rounded-lg" />
+            <h1 class="font-bold text-[20px] mb-[10px]">Start read to improve</h1>
+            <p class="lg:text-[16px] text-[12px] text-left">Memberikan pengguna akses ke beragam materi bacaan yang dapat meningkatkan pemahaman mereka tentang kesehatan dan gaya hidup sehat.</p>
           </div>
-          <div class="border border-[#9CB0C9] rounded-lg mx-[12px] p-[32px]">
-            <img src="./images/img4.jpg" alt="image3" class="mb-[24px] rounded-lg" />
-            <h1 class="font-bold text-[20px] mb-[10px]">News 3</h1>
-            <p class="text-[16px] text-left">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+          <div class="rounded-lg mx-[12px] review">
+            <img src="./images/img6.png" alt="image3" class="mb-[24px] rounded-lg" />
+            <h1 class="font-bold text-[20px] mb-[10px]">Stop blaming yourself</h1>
+            <p class="text-[16px] text-left">Memberikan dukungan kepada pengguna yang mengalami perasaan bersalah atau menyalahkan diri sendiri terkait perjalanan mereka menuju gaya hidup sehat.</p>
           </div>
-          <div class="border border-[#9CB0C9] rounded-lg mx-[12px] p-[32px]">
-            <img src="./images/img4.jpg" alt="image3" class="mb-[24px] rounded-lg" />
-            <h1 class="font-bold text-[20px] mb-[10px]">News 3</h1>
-            <p class="text-[16px] text-left">Lorem ipsum dolor sit amet consectetur. Neque lacus aliquet ac enim. Eu nec morbi a elit. Ipsum habitasse cursus vestibulum in tellus nulla.</p>
+          <div class="rounded-lg mx-[12px] review">
+            <img src="./images/img7.png" alt="image3" class="mb-[24px] rounded-lg" />
+            <h1 class="font-bold text-[20px] mb-[10px]">Let’s saving from now</h1>
+            <p class="text-[16px] text-left">Membantu pengguna mengelola dan meningkatkan pengeluaran keuangan mereka, serta mendorong kebiasaan menyimpan uang secara teratur.</p>
           </div>
         </div>
       </div>
     </section>
     <footer>
-      <ul class="flex space-x-4">
+      <ul class="flex space-x-4 lg:text-[16px] text-[8.5px]">
         <li>© 2024</li>
+        <li>Kelompok 5 Web Development, STACK 2024.</li>
         <li>Twitter</li>
         <li>LinkedIn</li>
         <li>Email</li>
-        <li>RSS feed</li>
-        <li>Add to Feedly</li>
       </ul>
     </footer>
   </body>
